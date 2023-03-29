@@ -1,0 +1,17 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$boston-celtics-primary: mat.define-palette(mat.$green-palette, 800);
+$boston-celtics-accent: mat.define-palette(mat.$light-green-palette, A200, A100, A400);
+$boston-celtics-warn: mat.define-palette(mat.$red-palette, 800);
+
+$boston-celtics-theme: mat.define-light-theme((
+  color: (
+    primary: $boston-celtics-primary,
+    accent: $boston-celtics-accent,
+    warn: $boston-celtics-warn,
+  )
+));
+
+@include mat.all-component-themes($boston-celtics-theme);

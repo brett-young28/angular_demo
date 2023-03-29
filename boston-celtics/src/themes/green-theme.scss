@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+
+$celtics-primary: mat-palette($mat-green, 800);
+$celtics-accent:  mat-palette($mat-light-green, A200, A100, A400);
+$celtics-warn:    mat-palette($mat-red, 800);
+
+$celtics-theme: mat-light-theme($celtics-primary, $celtics-accent, $celtics-warn);
+
+@include mat-core();
+@include angular-material-theme($celtics-theme);

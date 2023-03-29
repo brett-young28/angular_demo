@@ -1,0 +1,23 @@
+<div class="standings">
+    <h1>Boston Celtics Record after 25 games</h1>
+    <div class="standings-grid">
+      <div *ngFor="let standing of standings" class="standings-card">
+        <h2>{{ standing.season }}</h2>
+        <div class="stats">
+          <div>
+            <h3>Games Played</h3>
+            <p>{{ standing.wins + standing.losses }}</p>
+          </div>
+          <div>
+            <h3>Wins</h3>
+            <p>{{ standing.wins }}</p>
+          </div>
+          <div>
+            <h3>Losses</h3>
+            <p>{{ standing.losses }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

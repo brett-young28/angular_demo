@@ -1,0 +1,27 @@
+<div class="schedule-container">
+  <h2>Boston Celtics Schedule</h2>
+  <mat-form-field appearance="fill">
+    <mat-label>Select Season</mat-label>
+    <mat-select [(value)]="season" (selectionChange)="onSeasonChange()">
+      <mat-option *ngFor="let season of seasons" [value]="season">{{ season }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Home Team</th>
+        <th>Away Team</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of games">
+        <td>{{ game.date }}</td>
+        <td>{{ game.home_team.full_name }}</td>
+        <td>{{ game.visitor_team.full_name }}</td>
+        <td>{{ game.home_team_score }} - {{ game.visitor_team_score }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

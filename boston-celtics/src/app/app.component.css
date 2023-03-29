@@ -1,0 +1,43 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #006400; /* Dark green */
+    color: #fff;
+    padding: 16px;
+    font-size: 24px;
+  }
+  
+  nav {
+    background-color: #006400; /* Dark green */
+    padding: 8px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #006400;
+    border-radius: 4px;
+  }
+  
+  main {
+    flex-grow: 1;
+    padding: 16px;
+  }
+  
+  footer {
+    background-color: #006400; /* Dark green */
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  

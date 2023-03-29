@@ -1,0 +1,20 @@
+.standings-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 16px;
+  }
+  
+  .standings-card {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+  }
+  
