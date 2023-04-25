@@ -1,0 +1,111 @@
+{
+    "2017": [
+      { "team": "Boston Celtics", "wins": 53, "losses": 29, "winPercentage": 0.646 },
+      { "team": "Cleveland Cavaliers", "wins": 51, "losses": 31, "winPercentage": 0.622 },
+      { "team": "Toronto Raptors", "wins": 51, "losses": 31, "winPercentage": 0.622 },
+      { "team": "Washington Wizards", "wins": 49, "losses": 33, "winPercentage": 0.598 },
+      { "team": "Atlanta Hawks", "wins": 43, "losses": 39, "winPercentage": 0.524 },
+      { "team": "Milwaukee Bucks", "wins": 42, "losses": 40, "winPercentage": 0.512 },
+      { "team": "Indiana Pacers", "wins": 42, "losses": 40, "winPercentage": 0.512 },
+      { "team": "Chicago Bulls", "wins": 41, "losses": 41, "winPercentage": 0.500 },
+      { "team": "Miami Heat", "wins": 41, "losses": 41, "winPercentage": 0.500 },
+      { "team": "Detroit Pistons", "wins": 37, "losses": 45, "winPercentage": 0.451 },
+      { "team": "Charlotte Hornets", "wins": 36, "losses": 46, "winPercentage": 0.439 },
+      { "team": "New York Knicks", "wins": 31, "losses": 51, "winPercentage": 0.378 },
+      { "team": "Orlando Magic", "wins": 29, "losses": 53, "winPercentage": 0.354 },
+      { "team": "Philadelphia 76ers", "wins": 28, "losses": 54, "winPercentage": 0.341 },
+      { "team": "Brooklyn Nets", "wins": 20, "losses": 62, "winPercentage": 0.244 }
+    ],
+    "2018": [
+      { "team": "Toronto Raptors", "wins": 59, "losses": 23, "winPercentage": 0.72 },
+      { "team": "Boston Celtics", "wins": 55, "losses": 27, "winPercentage": 0.671 },
+      { "team": "Philadelphia 76ers", "wins": 52, "losses": 30, "winPercentage": 0.634 },
+      { "team": "Cleveland Cavaliers", "wins": 50, "losses": 32, "winPercentage": 0.61 },
+      { "team": "Indiana Pacers", "wins": 48, "losses": 34, "winPercentage": 0.585 },
+      { "team": "Miami Heat", "wins": 44, "losses": 38, "winPercentage": 0.537 },
+      { "team": "Milwaukee Bucks", "wins": 44, "losses": 38, "winPercentage": 0.537 },
+      { "team": "Washington Wizards", "wins": 49, "losses": 33, "winPercentage": 0.598 },
+      { "team": "Brooklyn Nets", "wins": 28, "losses": 54, "winPercentage": 0.244 },
+      { "team": "Orlando Magic", "wins": 25, "losses": 57, "winPercentage": 0.354 },
+      { "team": "New York Knicks", "wins": 29, "losses": 53, "winPercentage": 0.378 },
+      { "team": "Charlotte Hornets", "wins": 36, "losses": 46, "winPercentage": 0.439 },
+      { "team": "Detroit Pistons", "wins": 39, "losses": 43, "winPercentage": 0.451 },
+      { "team": "Chicago Bulls", "wins": 27, "losses": 55, "winPercentage": 0.500 },
+      { "team": "Atlanta Hawks", "wins": 24, "losses": 58, "winPercentage": 0.524 }
+
+    ],
+    "2019": [
+    { "team": "Milwaukee Bucks", "wins": 60, "losses": 22, "winPercentage": 0.732 },
+    { "team": "Toronto Raptors", "wins": 58, "losses": 24, "winPercentage": 0.707 },
+    { "team": "Philadelphia 76ers", "wins": 51, "losses": 31, "winPercentage": 0.622 },
+    { "team": "Boston Celtics", "wins": 49, "losses": 33, "winPercentage": 0.598 },
+    { "team": "Indiana Pacers", "wins": 48, "losses": 34, "winPercentage": 0.585 },
+    { "team": "Brooklyn Nets", "wins": 42, "losses": 40, "winPercentage": 0.512 },
+    { "team": "Orlando Magic", "wins": 42, "losses": 40, "winPercentage": 0.512 },
+    { "team": "Detroit Pistons", "wins": 41, "losses": 41, "winPercentage": 0.500 },
+    { "team": "Charlotte Hornets", "wins": 39, "losses": 43, "winPercentage": 0.476 },
+    { "team": "Miami Heat", "wins": 39, "losses": 43, "winPercentage": 0.476 },
+    { "team": "Washington Wizards", "wins": 32, "losses": 50, "winPercentage": 0.390 },
+    { "team": "Atlanta Hawks", "wins": 29, "losses": 53, "winPercentage": 0.354 },
+    { "team": "Chicago Bulls", "wins": 22, "losses": 60, "winPercentage": 0.268 },
+    { "team": "Cleveland Cavaliers", "wins": 19, "losses": 63, "winPercentage": 0.232 },
+    { "team": "New York Knicks", "wins": 17, "losses": 65, "winPercentage": 0.207 }
+    ],
+    "2020": [
+      { "team": "Milwaukee Bucks", "wins": 56, "losses": 17, "winPercentage": 0.767 },
+      { "team": "Toronto Raptors", "wins": 53, "losses": 19, "winPercentage": 0.736 },
+      { "team": "Boston Celtics", "wins": 48, "losses": 24, "winPercentage": 0.667 },
+      { "team": "Indiana Pacers", "wins": 45, "losses": 28, "winPercentage": 0.616 },
+      { "team": "Miami Heat", "wins": 44, "losses": 29, "winPercentage": 0.603 },
+      { "team": "Philadelphia 76ers", "wins": 43, "losses": 30, "winPercentage": 0.589 },
+      { "team": "Brooklyn Nets", "wins": 35, "losses": 37, "winPercentage": 0.486 },
+      { "team": "Orlando Magic", "wins": 33, "losses": 40, "winPercentage": 0.452 },
+      { "team": "Washington Wizards", "wins": 25, "losses": 47, "winPercentage": 0.347 },
+      { "team": "Charlotte Hornets", "wins": 23, "losses": 42, "winPercentage": 0.354 },
+      { "team": "Chicago Bulls", "wins": 22, "losses": 43, "winPercentage": 0.338 },
+      { "team": "New York Knicks", "wins": 21, "losses": 45, "winPercentage": 0.318 },
+      { "team": "Detroit Pistons", "wins": 20, "losses": 46, "winPercentage": 0.303 },
+      { "team": "Atlanta Hawks", "wins": 20, "losses": 47, "winPercentage": 0.299 },
+      { "team": "Cleveland Cavaliers", "wins": 19, "losses": 46, "winPercentage": 0.292 }    
+    ],
+    "2021": [
+      { "team": "Philadelphia 76ers", "wins": 51, "losses": 31, "winPercentage": 0.681 },
+      { "team": "Brooklyn Nets", "wins": 44, "losses": 38, "winPercentage": 0.667 },
+      { "team": "Milwaukee Bucks", "wins": 51, "losses": 31, "winPercentage": 0.639 },
+      { "team": "New York Knicks", "wins": 37, "losses": 45, "winPercentage": 0.569 },
+      { "team": "Atlanta Hawks", "wins": 43, "losses": 39, "winPercentage": 0.569 },
+      { "team": "Miami Heat", "wins": 53, "losses": 29, "winPercentage": 0.556 },
+      { "team": "Boston Celtics", "wins": 51, "losses": 31, "winPercentage": 0.500 },
+      { "team": "Washington Wizards", "wins": 35, "losses": 47, "winPercentage": 0.472 },
+      { "team": "Indiana Pacers", "wins": 25, "losses": 57, "winPercentage": 0.472 },
+      { "team": "Charlotte Hornets", "wins": 43, "losses": 39, "winPercentage": 0.458 },
+      { "team": "Chicago Bulls", "wins": 46, "losses": 36, "winPercentage": 0.431 },
+      { "team": "Toronto Raptors", "wins": 48, "losses": 34, "winPercentage": 0.375 },
+      { "team": "Cleveland Cavaliers", "wins": 44, "losses": 38, "winPercentage": 0.306 },
+      { "team": "Orlando Magic", "wins": 22, "losses": 60, "winPercentage": 0.292 },
+      { "team": "Detroit Pistons", "wins": 23, "losses": 59, "winPercentage": 0.278 }
+      ],
+      "2022": [ 
+      { "team": "Philadelphia 76ers", "wins": 54, "losses": 28, "winPercentage": 0.681 },
+      { "team": "Brooklyn Nets", "wins": 45, "losses": 37, "winPercentage": 0.667 },
+      { "team": "Milwaukee Bucks", "wins": 58, "losses": 24, "winPercentage": 0.639 },
+      { "team": "New York Knicks", "wins": 47, "losses": 35, "winPercentage": 0.569 },
+      { "team": "Atlanta Hawks", "wins": 41, "losses": 41, "winPercentage": 0.569 },
+      { "team": "Miami Heat", "wins": 44, "losses": 38, "winPercentage": 0.556 },
+      { "team": "Boston Celtics", "wins": 57, "losses": 25, "winPercentage": 0.500 },
+      { "team": "Washington Wizards", "wins": 35, "losses": 47, "winPercentage": 0.472 },
+      { "team": "Indiana Pacers", "wins": 35, "losses": 47, "winPercentage": 0.472 },
+      { "team": "Charlotte Hornets", "wins": 27, "losses": 55, "winPercentage": 0.458 },
+      { "team": "Chicago Bulls", "wins": 40, "losses": 42, "winPercentage": 0.431 },
+      { "team": "Toronto Raptors", "wins": 41, "losses": 41, "winPercentage": 0.375 },
+      { "team": "Cleveland Cavaliers", "wins": 51, "losses": 31, "winPercentage": 0.306 },
+      { "team": "Orlando Magic", "wins": 34, "losses": 48, "winPercentage": 0.292 },
+      { "team": "Detroit Pistons", "wins": 17, "losses": 65, "winPercentage": 0.278 }
+      ]
+
+    
+      }
+      
+
+
+  

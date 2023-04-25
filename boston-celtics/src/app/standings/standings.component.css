@@ -1,20 +1,34 @@
-.standings-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    margin-top: 16px;
-  }
-  
-  .standings-card {
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 16px;
-    border-radius: 4px;
-  }
-  
-  .stats {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 16px;
-  }
-  
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+mat-form-field {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+mat-table {
+  width: 100%;
+}
+
+mat-header-cell,
+mat-cell {
+  padding: 8px 16px;
+  text-align: center;
+}
+
+mat-header-cell {
+  font-weight: bold;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}

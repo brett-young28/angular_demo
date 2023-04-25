@@ -1,12 +1,37 @@
 <div class="container">
-  <h2>Boston Celtics Regular Season Standings</h2>
+  <h1>Eastern Conference Standings</h1>
+  <mat-form-field appearance="fill">
+    <mat-label>Select Year</mat-label>
+    <mat-select [(value)]="selectedYear" (selectionChange)="onYearChange()">
+      <mat-option *ngFor="let year of years" [value]="year.value">
+        {{ year.display }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 
-  <label for="yearSelect">Select Year: </label>
-  <select id="yearSelect" [(ngModel)]="selectedYear" (change)="onYearChange()">
-    <option *ngFor="let year of years" [value]="year.value">{{year.display}}</option>
-  </select>
+  <mat-table [dataSource]="standings">
+    <ng-container matColumnDef="rank">
+      <mat-header-cell *matHeaderCellDef> Rank </mat-header-cell>
+      <mat-cell *matCellDef="let row; let i = index">{{ i + 1 }}</mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="team">
+      <mat-header-cell *matHeaderCellDef> Team </mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.team }}</mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="wins">
+      <mat-header-cell *matHeaderCellDef> Wins </mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.wins }}</mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="losses">
+      <mat-header-cell *matHeaderCellDef> Losses </mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.losses }}</mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="winPercentage">
+      <mat-header-cell *matHeaderCellDef> Win % </mat-header-cell>
+      <mat-cell *matCellDef="let row">{{ row.winPercentage }}</mat-cell>
+    </ng-container>
 
-  <div class="standings">
-    <pre>{{ standings }}</pre>
-  </div>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
 </div>

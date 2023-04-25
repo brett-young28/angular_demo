@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
-
+import { MatTableModule } from '@angular/material/table';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TeamStatsComponent } from './team-stats/team-stats.component';
@@ -37,6 +37,7 @@ import { RosterComponent } from './roster/roster.component';
     MatCardModule,
     MatFormFieldModule,
     MatSelectModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
