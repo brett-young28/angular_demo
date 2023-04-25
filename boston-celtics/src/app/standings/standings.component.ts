@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { NbaService } from '../nba.service';
+
+interface Standings {
+  [key: string]: string;
+}
 
 @Component({
   selector: 'app-standings',
@@ -7,41 +10,33 @@ import { NbaService } from '../nba.service';
   styleUrls: ['./standings.component.css']
 })
 export class StandingsComponent implements OnInit {
-  seasons: string[] = ['2017', '2018', '2019', '2020', '2021'];
-  standings: any[] = [];
 
-  constructor(private nbaService: NbaService) { }
+  years = [
+    {value: '2017', display: '2017'},
+    {value: '2018', display: '2018'},
+    {value: '2019', display: '2019'},
+    {value: '2020', display: '2020'},
+    {value: '2021', display: '2021'},
+  ];
 
-  ngOnInit() {
-    this.seasons.forEach((season, index) => {
-      this.nbaService.getCelticsGames(season).subscribe((data: any) => {
-        let wins = 0;
-        let losses = 0;
+  celticsStandings: Standings = {
+    '2017': 'Your 2017 standings data here',
+    '2018': 'Your 2018 standings data here',
+    '2019': 'Your 2019 standings data here',
+    '2020': 'Your 2020 standings data here',
+    '2021': 'Your 2021 standings data here',
+  };
 
-        data.data.forEach((game: any) => {
-          if (game.status === 'Final') {
-            if (game.home_team.id === this.nbaService.celticsId) {
-              if (game.home_team_score > game.visitor_team_score) {
-                wins++;
-              } else {
-                losses++;
-              }
-            } else {
-              if (game.home_team_score < game.visitor_team_score) {
-                wins++;
-              } else {
-                losses++;
-              }
-            }
-          }
-        });
+  selectedYear: string = this.years[0].value;
+  standings: string = this.celticsStandings[this.selectedYear];
 
-        this.standings[index] = {
-          season: season,
-          wins: wins,
-          losses: losses
-        };
-      });
-    });
+  constructor() { }
+
+  ngOnInit(): void {
   }
+
+  onYearChange(): void {
+    this.standings = this.celticsStandings[this.selectedYear];
+  }
+
 }

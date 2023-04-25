@@ -1,0 +1,26 @@
+<h2><img src="assets/images/celtics_logo.webp"/>Celtics Roster</h2>
+
+<table class="roster-table">
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Name</th>
+      <th>Position</th>
+      <th>Points Per Game</th>
+      <th>Rebounds Per Game</th>
+      <th>Assists Per Game</th>
+      <th>FG%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let player of players">
+      <td>{{ player.number }}</td>
+      <td>{{ player.name }}</td>
+      <td>{{ player.position }}</td>
+      <td>{{ player.ppg }}</td>
+      <td>{{ player.rpg }}</td>
+      <td>{{ player.apg }}</td>
+      <td>{{ player.fg }}</td>
+    </tr>
+  </tbody>
+</table>

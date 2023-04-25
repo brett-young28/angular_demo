@@ -8,7 +8,6 @@ import { MatSelectModule } from '@angular/material/select';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlayerStatsComponent } from './player-stats/player-stats.component';
 import { TeamStatsComponent } from './team-stats/team-stats.component';
 import { StandingsComponent } from './standings/standings.component';
 import { ScheduleComponent } from './schedule/schedule.component';
@@ -17,14 +16,15 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { RosterComponent } from './roster/roster.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlayerStatsComponent,
     TeamStatsComponent,
     StandingsComponent,
-    ScheduleComponent
+    ScheduleComponent,
+    RosterComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +36,7 @@ import { MatButtonModule } from '@angular/material/button';
     FormsModule,
     MatCardModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

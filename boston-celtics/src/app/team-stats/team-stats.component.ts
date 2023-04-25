@@ -14,7 +14,7 @@ export class TeamStatsComponent implements OnInit {
     threePointPercentage: 37.7,
     freeThrowPercentage: 80.4,
     stealsPerGame: 8.0,
-    
+
   };
 
   constructor() { }

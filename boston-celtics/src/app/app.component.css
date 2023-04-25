@@ -6,14 +6,14 @@
   }
   
   header {
-    background-color: #006400; /* Dark green */
+    background-color: #1D8348; /* Dark green */
     color: #fff;
     padding: 16px;
     font-size: 24px;
   }
   
   nav {
-    background-color: #006400; /* Dark green */
+    background-color: #1D8348; /* Dark green */
     padding: 8px;
   }
   
@@ -25,7 +25,7 @@
   
   nav a:hover {
     background-color: #fff;
-    color: #006400;
+    color: #1D8348;
     border-radius: 4px;
   }
   
@@ -35,9 +35,15 @@
   }
   
   footer {
-    background-color: #006400; /* Dark green */
+    background-color: #1D8348; /* Dark green */
     color: #fff;
     padding: 16px;
     text-align: center;
   }
+    
+  /* app.component.css */
+  .mat-toolbar {
+    background-color: #1D8348;
+  }
+
   
